@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "wildarielu-cvalgo_jd474"
+name = "wildarielu-model_hot_swap_consistency_coverage_map"
 version = "0.1.0"
 description = "把候选项映射到类别上，算出计算机视觉算法工程师·模型热切换的一致性的覆盖率并列出未覆盖的类别"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://wildarielu.github.io"
-Repository = "https://github.com/wildarielu/cvalgo_jd474"
-Issues = "https://github.com/wildarielu/cvalgo_jd474/issues"
+Repository = "https://github.com/wildarielu/model_hot_swap_consistency_coverage_map"
+Issues = "https://github.com/wildarielu/model_hot_swap_consistency_coverage_map/issues"
 
 [project.scripts]
-cvalgo_jd474 = "cvalgo_jd474:main"
+model_hot_swap_consistency_coverage_map = "model_hot_swap_consistency_coverage_map:main"
 
 [tool.setuptools]
-py-modules = ["cvalgo_jd474"]
+py-modules = ["model_hot_swap_consistency_coverage_map"]
